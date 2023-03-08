@@ -11,9 +11,9 @@ class CRC_CD_Assignment1
     // loops through all values
     for (int i = 0; i < n - 1; i++)
     {
-      // compares adjacent values
       for (int j = 0; j < n - i - 1; j++)
       {
+        // compare adjacent values
         if (arr[j] > arr[j + 1])
         {
           // temporary value storage during swap
